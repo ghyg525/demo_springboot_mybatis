@@ -30,4 +30,4 @@ server:
 logging:
   level:
     org:
-      springframework: INFO
+      springframework: info
