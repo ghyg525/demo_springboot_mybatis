@@ -18,7 +18,8 @@ spring:
     
 #mybatis配置
 mybatis: 
-  config: classpath:mybatis.xml
+  configuration: 
+    mapUnderscoreToCamelCase: true ## 开启自动驼峰命名规则映射
 
 
 ##服务配置
